@@ -16,10 +16,11 @@ spec:
     spec:
       containers:
         - name: backend
-          image: cs3219_otot_taska1_nodeserver
+          image: blaketingyu/a1_app
+          imagePullPolicy: Never # or IfNotPresent
           ports:
             - name: http
-              containerPort: 3000
+              containerPort: 8080
           resources:
             limits:
               cpu: 40m
