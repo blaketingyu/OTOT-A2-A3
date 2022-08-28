@@ -82,6 +82,8 @@ In Kubernetes, the smallest deployable unit is Pod.
 
 [TODO]: more resources on why there is Pod.
 
+Deploy nginx pod
+
 All the containers exist within Pods, and a Pod hosts 1 or more closely related containers.  
 For this assignment's purpose, we assume there is only 1 container in each Pod, and the concepts of Pod and container are interchangeable.
 
